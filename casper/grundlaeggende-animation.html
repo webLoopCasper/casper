@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="opgaver.css">
+    <link rel="icon" type="image/x-icon" href="/img/person.svg">
+    <title>Grundlæggende animation</title>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <nav class="main-menu">
+                <div>
+                    <ul class="menu">
+                        <li id="burgermenu-icon" class="burgermenu"> <div> <img src="img/logo.svg" alt=""> </div> </li>
+                        <li> <a href="index.html">Forside</a>
+                            
+                        </li>
+                        <li class="dropdown"> <a href="grundlaeggende-web.html">Opgaver</a>
+                            <ul class="sub-menu">
+                                <li><a href="grundlaeggende-web.html">Grundlæggende web</a></li>
+                                <li><a href="grundlaeggende-ux.html">Grundlæggende UX</a></li>
+                                <li><a href="grundlaeggende-animation.html">Grundlæggende Animation</a></li>
+                                <li><a href="grundlaeggende-inhold.html">Grundlæggende Indhold</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="om-mig.html">Om mig</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="menu-left">
+                    <!-- <div>
+                        <img src="img/bell.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/message.svg" alt="">
+                    </div> -->
+                    <div class="last-icon">
+                        <img src="img/person.svg" alt="">
+                        <p>Casper Bisgaard</p>
+                    </div>
+
+                </div>
+            </nav>
+            <nav>
+               <ul class="burger-menu-display">
+                <li><a href="index.html">Forside</a></li>
+                <li>
+                    <div class="burger-dropdown">
+                        <div class="">
+                            <a href="grundlaeggende-web.html">Opgaver</a>
+                        </div>
+                        <div id="down-arrow" class="down-arrow">
+                           <div class="arrow"> <img src="img/down.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <ul class="burger-submenu">
+                        <li><a href="grundlaeggende-web.html">Grundlæggende web</a></li>
+                        <li><a href="grundlaeggende-ux.html">Grundlæggende UX</a></li>
+                        <li><a href="grundlaeggende-animation.html">Grundlæggende Animation</a></li>
+                        <li><a href="grundlaeggende-inhold.html">Grundlæggende Indhold</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="om-mig.html">Om mig</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="headline-container">
+            <h1>Grundlæggende Animation</h1>
+        </div>
+
+
+        <div class="content-container">
+
+            <div class="text-container">
+                
+                <h2>-Viden</h2>
+                <p>
+                    I dette tema begyndte jeg på javascript, som er et programmeringssprog man blandt andet kan bruge til at tilføje funktionalitet til sin hjemmeside. Det skulle jeg bruge da dette tema's opgave lød på at lave et spil. Derudover blev jeg introduceret til CSS animationer og vektorgrafik som sammen blev til et funktionelt spil.
+                </p>
+                <h2>-Færdigheder</h2>
+                <p>
+                    Til at starte med tegnede jeg en prototype (billede 1), så havde et udgangspunkt at designe ud fra. Temaet lærte mig hvordan jeg definerede variabler i Javascript, og hvordan man lavede “event listeners”, og man kunne på den måde tilføje og fjerne klasser for de forskellige elementer. Denne funktionalitet gjorde at jeg kunne designe hvornår animationerne skulle ske og på den måde skabe et spil. For at finde ud af hvornår de forskellige event skulle “triggers” lavede jeg et aktivitetsdiagram (billede 2). Derudover skulle der laves en startskærm (billede 3) der fortæller om hvordan spillet skal spilles. Slut produktet kan ses på (billede 4) eller ved at klikke på linket.
+                    
+                </p>
+                <h2>-Kompetencer</h2>
+                <p>
+                    Grunden til at der bliver brugt javascript til dette projekt er fordi javascript er bla. er lavet til at tilføje funktionalitet, men også fordi det ville være uhyggeligt besværligt at gøre det med css og html, og disse "sprog" er heller ikke designet til den type opgaver. Måden jeg får fat i de forskellige elementer (querySelector) kunne man selvfølgelig også gøre på andre måder (getElementById / getElementsByClassName) men her er der heldigvis metodefrihed.
+                </p>
+                <h2>-Links</h2>
+                <a href="https://casperbisgaard.com/kea/04_animation/website/spil.html">Link til spil</a>
+               
+
+
+
+            </div>
+            <div class="image-galleri-container">
+                <div class="big-image">
+                    <img id="big-image-element" src="galleri-ani/img1.jpg" alt="">
+                </div>
+                <div class="small-image-container">
+                    <div >
+                        <img class="small-img" src="galleri-ani/img1.jpg" alt="">
+                        <p>1</p>
+                    </div>
+                    <div >
+                        <img  class="small-img" src="galleri-ani/img3.jpg" alt="">
+                        <p>2</p>
+                    </div>
+                    <div >
+                        <img class="small-img" src="galleri-ani/img2.jpg" alt="">
+                        <p>3</p>
+                    </div>
+                    <div >
+                        <img class="small-img" src="galleri-ani/img4.jpg" alt="">
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

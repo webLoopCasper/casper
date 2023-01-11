@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="opgaver.css">
+    <link rel="icon" type="image/x-icon" href="/img/person.svg">
+    <title>Grundlæggende web</title>
+    
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <nav class="main-menu">
+                <div>
+                    <ul class="menu">
+                        <li id="burgermenu-icon" class="burgermenu"> <div> <img src="img/logo.svg" alt=""> </div> </li>
+                        <li> <a href="index.html">Forside</a>
+                            
+                        </li>
+                        <li class="dropdown"> <a href="grundlaeggende-web.html">Opgaver</a>
+                            <ul class="sub-menu">
+                                <li><a href="grundlaeggende-web.html">Grundlæggende web</a></li>
+                                <li><a href="grundlaeggende-ux.html">Grundlæggende UX</a></li>
+                                <li><a href="grundlaeggende-animation.html">Grundlæggende Animation</a></li>
+                                <li><a href="grundlaeggende-inhold.html">Grundlæggende Indhold</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="om-mig.html">Om mig</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="menu-left">
+                    <!-- <div>
+                        <img src="img/bell.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/message.svg" alt="">
+                    </div> -->
+                    <div class="last-icon">
+                        <img src="img/person.svg" alt="">
+                        <p>Casper Bisgaard</p>
+                    </div>
+
+                </div>
+            </nav>
+            <nav>
+               <ul class="burger-menu-display">
+                <li><a href="index.html">Forside</a></li>
+                <li>
+                    <div class="burger-dropdown">
+                        <div class="">
+                            <a href="grundlaeggende-web.html">Opgaver</a>
+                        </div>
+                        <div id="down-arrow" class="down-arrow">
+                           <div class="arrow"> <img src="img/down.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <ul class="burger-submenu">
+                        <li><a href="grundlaeggende-web.html">Grundlæggende web</a></li>
+                        <li><a href="grundlaeggende-ux.html">Grundlæggende UX</a></li>
+                        <li><a href="grundlaeggende-animation.html">Grundlæggende Animation</a></li>
+                        <li><a href="grundlaeggende-inhold.html">Grundlæggende Indhold</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="om-mig.html">Om mig</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="headline-container">
+            <h1>Grundlæggende Web</h1>
+        </div>
+
+
+        <div class="content-container">
+
+            <div class="text-container">
+                
+                <h2>-Viden</h2>
+                <p>I dette Tema lærte vi de basale redskaber man skal bruge som multimedie designer. Vi blev introduceret til kodning og hvad de vil sige at lave en side "responsiv". Vi lærte om billedredigering og de helt basale ting som photoshop og xd kan.
+                </p>
+                <h2>-Færdigheder</h2>
+                <p>
+                    Jeg brugte XD til at lave en lille planche om hvorfor jeg havde valgt at gå på kea (se billede 1). Jeg lærte at lave helt simple hjemmesider i html og css hvor vi kunne indsætte billeder, links og lister ( se billede 2 og 3). I  afslutningen af temaet skulle man bevise at man kunne det grundlæggende i en studiestarts prøve (se billede 4) 
+                </p>
+                <h2>-Kompetencer</h2>
+                <p>
+                    For at lave hjemmesiden i studiestart prøven responsiv brugte vi flexboks og grid. flexboks er bedst hvis der ikke er for mange elementer da man kun kan redigere i “en retning” hvor at med grid kan du styre præcis hvor elementerne skal placere sig
+                </p>
+                <h2>-Links</h2>
+                <a href="https://casperbisgaard.com/kea/02_web/02_html/kaeledyr/">Link til kæledyrssiden</a> <br>
+                <a href="https://casperbisgaard.com/kea/02_web/02_html/visitkort/">Link til basale visitkort</a> <br>
+                <a href="https://casperbisgaard.com/kea/02_web/01_website/website/index.html">Link til studiestartprøven</a>
+
+
+
+            </div>
+            <div class="image-galleri-container">
+                <div class="big-image">
+                    <img id="big-image-element" src="galleri-web/img1.jpg" alt="">
+                </div>
+                <div class="small-image-container">
+                    <div >
+                        <img class="small-img" src="galleri-web/img1.jpg" alt="">
+                        <p>1</p>
+                    </div>
+                    <div >
+                        <img class="small-img" src="galleri-web/img2.jpg" alt="">
+                        <p>2</p>
+                    </div>
+                    <div >
+                        <img  class="small-img" src="galleri-web/img3.jpg" alt="">
+                        <p>3</p>
+                    </div>
+                    <div >
+                        <img class="small-img" src="galleri-web/img4.jpg" alt="">
+                        <p>4</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

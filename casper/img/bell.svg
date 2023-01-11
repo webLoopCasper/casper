@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71">
+  <g id="Group_3" data-name="Group 3" transform="translate(-620 -310)">
+    <path id="Icon_awesome-bell" data-name="Icon awesome-bell" d="M23.166,52.951a6.618,6.618,0,0,0,6.616-6.619H16.55A6.618,6.618,0,0,0,23.166,52.951ZM45.442,37.468c-2-2.147-5.737-5.377-5.737-15.957A16.332,16.332,0,0,0,26.474,5.465V3.309a3.307,3.307,0,1,0-6.615,0V5.465A16.332,16.332,0,0,0,6.627,21.511c0,10.58-3.739,13.81-5.737,15.957A3.231,3.231,0,0,0,0,39.713a3.312,3.312,0,0,0,3.32,3.309H43.013a3.312,3.312,0,0,0,3.32-3.309A3.229,3.229,0,0,0,45.442,37.468Z" transform="translate(632 318)" fill="#b4b3bd"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(620 310)" fill="none" stroke="#b4b3bd" stroke-width="3">
+      <circle cx="35.5" cy="35.5" r="35.5" stroke="none"/>
+      <circle cx="35.5" cy="35.5" r="34" fill="none"/>
+    </g>
+  </g>
+</svg>
+
